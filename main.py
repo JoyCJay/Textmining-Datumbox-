@@ -6,7 +6,7 @@ import func
 
 
 srcfile=sys.argv[1]
-f = open(srcfile)
+f = open(srcfile,encoding='utf-8')
 context=f.read()
 
 datum_box = DatumBox("0524ce14843851b0ffcf479659fb2a34")
